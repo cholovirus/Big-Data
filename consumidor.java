@@ -10,7 +10,7 @@ import java.time.Duration;
 import java.util.Collections;
 import java.util.Properties;
 
-public class MyKafkaConsumer {
+public class consumidor {
     public static void main(String[] args) {
         String bootstrapServers = "localhost:9092";
         String groupId = "my-group";
